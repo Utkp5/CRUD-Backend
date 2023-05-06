@@ -24,6 +24,9 @@ dbconnect();
 
 
 //router
+const router = require('./Routes/userRoutes');
+app.use('/api/crud',router);
+
 
 
 app.get('/', (req,res) => {
