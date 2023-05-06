@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-
 const Crud = new mongoose.Schema({
     name : {
         type : String,
