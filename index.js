@@ -29,7 +29,7 @@ app.use('/api/crud',router);
 
 
 
-app.get('/', (req,res) => {
+app.get('/api/crud', (req,res) => {
     return res.status(200).send(`CRUD project`);
 });
 
